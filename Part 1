@@ -41,13 +41,42 @@ Types of ML
   1. Classification - for categorical data (no explicit order; colors)
   2. Regression - for continuous data (numerical, explicit order involved)
   
---Supervised learning examples
+--Supervised learning examples--
 1. Situation without human expert
 2. Situation where humans can perform the task but cannot describe how they do it (handwritten character)
 3. Desired function changes frequently(stock prices)
-4. Each user needs a customized function f 
+4. Each user needs a customized function f (incoming email message, importance for presenting to user)
 
 
+*Hypothesis Testing*
+-calculates some quantity under a given assumption 
+-assume that data has normal distribution
+-assume that two samples were drawn from the same underlying population distribution 
+-assumption of statistical test is known as null hypothesis, commonly accepted fact, default assumption 
+-violation of assumption
+
+*p-value, a
+-alpha is a significance level that is used to either accept or reject the hypothesis 
+-smaller alpha suggests more robust value 
+-confidence value = 1-alpha 
+
+*Errors in statistical tests
+-interpretation of statistical hypothesis test is probabilistic 
+Type I error: rejected true H0
+Type II error: didn't reject false H0
+
+*How to derive the p-value?
+-sampling distribution under null hypothesis must be calculable
+
+*z-test
+-determine whether two population means are different
+-follow normal distribution 
+
+*t-test
+-evaluate if the means of two sets of data are statistically significantly different from each other
+
+*ML Process
+-Train 80%, Test 20%
 
 
 
